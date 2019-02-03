@@ -6,12 +6,10 @@ is
 a comment! */
 
 /* CSS Syntax:
-
 selector {
   property: value;
   property: value;
 }
-
 */
 
 /* Type selector */
@@ -70,63 +68,3 @@ figcaption {
 #details a:active {
   color: red;
 }
-/*//////Media///////////*/
-
-img, video, audio {
-  max-width: 100%
-}
-
-/*//////Layout///////////*/
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.wrapper {
-  width: 960px;
-  margin: 0 auto;
-  background: #eee
-}
-
-.col-1 {
-  float: left;
-  width: 32%;
-  background: #ccc;
-}
-
-.col-2 {
-  float: left;
-  width: 66%;
-  background: #ccc;
-}
-
-.col-3 {
-  background: #ccc;
-}
-.clearfix::after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    height: 0;
-    line-height: 0;
-
-}
-
-[class*="col-"] {
-  margin-left: 2%;
-}
-
-.first {
-  margin-left: 0%;
-}
-
-/*//////Section///////////*/
-
-section {
-  margin-bottom: 20px;
-  padding: 20px;
-}
- 
